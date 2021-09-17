@@ -1,6 +1,6 @@
 # htmlcss-wp
 
-Provato css Float con relatimo clearFix
+Provato css Float con relativo clearFix
   nb:
     ::after{
     content:'';
