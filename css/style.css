@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #cbcbcb;
+}
+
 .clearfix::after{
     content: '';
     display: table;
@@ -24,12 +30,19 @@
 .head-navbar{
     
     /* impo debug */
-    height: 50px;
+    height: 70px;
     background-color: hotpink;
 }
+#logo img{
+    height: 70px;
+    width: auto;
+    padding-right: 30px;
+    border-right: 2px solid #cbcbcb;
+}
+
 
 /* section jambotron */
-.jambotron{
+#jambotron{
     margin: 10px 0;
     /* impo debug */
     height: 200px;
