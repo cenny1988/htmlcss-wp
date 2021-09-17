@@ -108,13 +108,25 @@ body{
     /* impo debug */
     background-color: cadetblue;
 }
-/* .aside-top-img{
+.aside-top-img{
+    /* background-image: url(../img/img-1.jpg); */
     width: 100%;
-} */
-.aside-top-img img{
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#aside-sx{
+    background-image: url(../img/img-1.jpg);
+}
+#aside-dx{
+    background-image: url(../img/img-3.jpg);
+}
+/* .aside-top-img img{
     width: 100%;
     border-radius: 15px;
-}
+} */
 .aside-bottom-conten{
     margin: 15px 0;
     font-weight: 100;
