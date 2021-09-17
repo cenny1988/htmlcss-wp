@@ -1,0 +1,88 @@
+/* impostazioni generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* css div centrato */
+.center{
+    width: 80%;
+    margin: 10px auto;
+    /* impo debug */
+    /* height: 500px;
+    background-color: blueviolet; */
+}
+
+/* header */
+.head-navbar{
+    
+    /* impo debug */
+    height: 50px;
+    background-color: hotpink;
+}
+
+/* section jambotron */
+.jambotron{
+    margin: 10px 0;
+    /* impo debug */
+    height: 200px;
+    background-color: bisque;
+}
+
+/* main */
+.section-main{
+    margin-bottom: 5px;
+    /* impo debug */
+    padding-bottom: 10px;
+    background-color: dodgerblue;
+    /* height: 250px; */
+}
+
+.main-top{
+    margin-bottom: 5px;
+    /* impo debug */
+    height: 35px;
+    background-color: cadetblue;   
+}
+
+.container-col{
+
+    /* impo debug */
+    /* background-color: yellow;
+    height: 100px; */
+}
+
+.widgets{
+    float: left;
+    width: 15%;
+
+    /* impo debug */
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.main-center{
+    float: left;
+    width: 66%;
+    margin: 0 2%;
+
+    /* impo debug */
+    height: 200px;
+    background-color: cadetblue;
+}
+
+/* footer */
+.section-footer{
+    width: 100%;
+
+    /* impo debug */
+    background-color: blueviolet;
+    height: 25px;    
+}
