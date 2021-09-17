@@ -88,11 +88,18 @@ body{
 }
 
 .main-top{
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 300;
     /* impo debug */
-    height: 35px;
     background-color: cadetblue;   
 }
+.main-top h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+}
+
 
 .container-col{
 
