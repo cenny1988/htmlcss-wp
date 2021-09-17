@@ -18,6 +18,15 @@ body{
     clear: both;
 }
 
+.overlaytest::after{
+    display: block;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* css div centrato */
 .center{
     width: 80%;
@@ -142,3 +151,4 @@ footer span{
     color: red;
     font-size: 18px;
 }
+
