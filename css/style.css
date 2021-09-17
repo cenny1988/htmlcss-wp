@@ -123,10 +123,14 @@ body{
 #aside-dx{
     background-image: url(../img/img-3.jpg);
 }
+#main-box{
+    background-image: url(../img/banner-2.jpg);
+}
 /* .aside-top-img img{
     width: 100%;
     border-radius: 15px;
 } */
+
 .aside-bottom-conten{
     margin: 15px 0;
     font-weight: 100;
@@ -143,7 +147,6 @@ body{
     margin: 0 2%;
 
     /* impo debug */
-    height: 200px;
     background-color: cadetblue;
 }
 
