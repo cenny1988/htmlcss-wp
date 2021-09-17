@@ -27,23 +27,30 @@ body{
 }
 
 /* header */
-.head-navbar{
-    
-    /* impo debug */
-    height: 70px;
-    background-color: hotpink;
-}
 #logo img{
     height: 70px;
     width: auto;
     padding-right: 30px;
     border-right: 2px solid #cbcbcb;
 }
+#main-menu{
+    margin-top: 25px;
+}
+#main-menu li{
+    display: inline-block;
+}
+#main-menu a{
+    text-decoration: none;
+    color: #cbcbcb;
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 20px;
+}
 
 
 /* section jambotron */
 #jambotron{
-    margin: 10px 0;
+    margin: 25px 0;
     /* impo debug */
     height: 200px;
     background-color: bisque;
