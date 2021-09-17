@@ -64,6 +64,19 @@ body{
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
 }
+.title{
+    color: #fff;
+    width: 65%;
+    padding: 350px 50px 0;
+    font-weight: 300;
+    font-size: 15px;
+}
+.title h2{
+    font-weight: 300;
+    font-size: 28px;
+}
+
+
 
 /* main */
 .section-main{
