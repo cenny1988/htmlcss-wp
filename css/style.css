@@ -7,7 +7,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 300;
     color: #cbcbcb;
 }
 
@@ -68,11 +69,11 @@ body{
     color: #fff;
     width: 65%;
     padding: 350px 50px 0;
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 15px;
 }
 .title h2{
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 28px;
 }
 
@@ -90,7 +91,7 @@ body{
 .main-top{
     margin-bottom: 20px;
     font-size: 22px;
-    font-weight: 300;
+    /* font-weight: 300; */
     /* impo debug */
     background-color: cadetblue;   
 }
@@ -100,26 +101,33 @@ body{
     color: #000;
 }
 
-
-.container-col{
-
-    /* impo debug */
-    /* background-color: yellow;
-    height: 100px; */
-}
-
-.widgets{
+/* sezione colonne del main */
+.aside-box{
     float: left;
-    width: 15%;
-
+    width: 20%;
     /* impo debug */
-    height: 200px;
     background-color: cadetblue;
 }
+/* .aside-top-img{
+    width: 100%;
+} */
+.aside-top-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.aside-bottom-conten{
+    margin: 15px 0;
+    font-weight: 100;
+}
+.aside-bottom-conten h4{
+    margin-bottom: 7px;
+}
+
+
 
 .main-center{
     float: left;
-    width: 66%;
+    width: 56%;
     margin: 0 2%;
 
     /* impo debug */
