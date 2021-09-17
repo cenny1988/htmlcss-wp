@@ -51,9 +51,12 @@ body{
 /* section jambotron */
 #jambotron{
     margin: 25px 0;
-    /* impo debug */
-    height: 200px;
-    background-color: bisque;
+    border-radius: 10px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
 }
 
 /* main */
